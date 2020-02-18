@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Admission Form </title>
+  </head>
+<body>
+   <form>
+    <table>   
+      <tr><td width=10%>
+            <audio controls>
+              <source src="images/Kalimba.mp3" type="audio/mp3">
+          </audio>
+          
+          </td><td><FONT SIze="+2" color="red"><h1><U><center> MAHAJAN COMPUTERS</center></U></h1></FONT>
+       <h2><Center><u>Admission Form</u></Center> </h2></td>
+          <td> 
+            <video width=500px height=200px controls>
+               <source src="images/mahajans_ad.mp4" type="video/mp4">
+              </video>
+          </td>
+                </tr>
+    </table>
+       <br><br>
+       <table>
+           <tr><th align=left><Label> Name </Label> </th><td><input type="text" name="full_name" placeholder="type student name"></input> </td> </tr>
+           <tr><th align=left><Label> Father's Name </Label> </th><td><input type="text" name="fname"></input> </td> </tr>
+           
+        <tr><th align=left><Label> College Name </Label> </th>
+            <td> <select name="college"> 
+                   <option value="IIT" > IIT</option>
+                   <option value="IIIT"> IIIT</option>
+                   <option value="NIT" selected> NIT</option>
+                   <option value="JMIT"> JMIT</option>
+                
+                </select> </td> </tr>
+
+<tr><th align=left><Label> Course Applied For </Label> </th>
+    <td> <input type="checkbox" name = "course" value="C"> C Language </input>
+        <input type="checkbox" name = "course" value="CPP"> C++ Language </input>
+        <input type="checkbox" name = "course" value="Core Java"> Core Java Language </input>
+       <input type="checkbox" name = "course" value="DS"> Data Structure </input> </td></tr>
+           <tr><th align=left><Label> Date of Joining </Label> </th><td><input type="date" name="doj"></input> </td> </tr>
+          <tr><th align=left><Label> Email-ID </Label> </th><td><input type="email" name="email_id"></input> </td> </tr>
+          <tr><th align=left><Label> Telephone </Label> </th><td><input type="number" name="ph_no"></input> </td> </tr>
+
+<tr> <th align=left><Label> Gender</Label> </th><td><input type=radio name="gender" value="male" checked> Male </input>
+                      <input type=radio name="gender" value="female"> FeMale </input>
+                                                </td> </tr>
+ <tr><th align=left><Label> Favourite Color </Label> </th><td><input type="color" name="fav_color"></input> </td> </tr>
+
+<tr><th align=left><Label> Degree Being Pursued </Label> </th>
+    <td><input list="degree" name="degree">
+        <datalist id="degree">
+            <option value="B.Tech" >
+            <option value="M.Tech" >    
+                <option value="BCA" >
+            <option value="MCA" >
+        <option value="Others" >        
+        </datalist>
+    </td> </tr>
+
+        <tr><th align=left><Label> Favourite Conveyance </Label> </th>
+            <td> <select name="conveyance" multiple> 
+                   <option value="cycle" selected> Cycle </option>
+                   <option value="twowheeler"> Two Wheeler</option>
+                   <option value="car" > car</option>
+                   <option value="Jeep"> Jeep</option>
+                
+                </select> </td> </tr>
+ 
+
+<tr><th align=left><Label> Any Suggestions </Label> </th><td><textarea rows=10 cols=30 placeholder="type suggestion" name="suggestion"></textarea></td> </tr>
+
+       
+       </table> 
+       
+<br><br>
+<input type="Submit"></input> &emsp;&emsp; <button value="cancel" name="cancel"> CANCEL</button>
+    </form> 
+<body>
+    
+</html>
